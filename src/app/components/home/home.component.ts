@@ -11,18 +11,19 @@ export class HomeComponent implements OnInit {
     this.slides = [
       {
         id: 0,
-        imageUrl:
-          'https://images.pexels.com/photos/2407634/pexels-photo-2407634.jpeg?cs=srgb&dl=pexels-jeff-guab-2407634.jpg&fm=jpg',
+        imageUrl: '../../../assets/pexels-jeff-guab-2407634.jpg',
       },
       {
         id: 1,
-        imageUrl:
-          'https://images.pexels.com/photos/1701893/pexels-photo-1701893.jpeg?cs=srgb&dl=pexels-ricardo-esquivel-1701893.jpg&fm=jpg',
+        imageUrl: '../../../assets/pexels-ricardo-esquivel-1701893.jpg',
       },
       {
         id: 2,
-        imageUrl:
-          'https://images.pexels.com/photos/7683376/pexels-photo-7683376.jpeg?cs=srgb&dl=pexels-mikhail-nilov-7683376.jpg&fm=jpg',
+        imageUrl: '../../../assets/pexels-mikhail-nilov-7683376.jpg',
+      },
+      {
+        id: 3,
+        imageUrl: '../../../assets/crime_scene.png',
       },
     ];
   }
