@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ISlide } from '../shared/interfaces/islide';
 
 @Component({
   selector: 'app-home',
@@ -29,9 +30,4 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {}
-}
-
-interface ISlide {
-  id: number;
-  imageUrl: string;
 }
